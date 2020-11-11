@@ -285,7 +285,7 @@ textarea {
 }
 .star-section .star.star8 {
     animation-delay: -7s;
-    background: url(./star8.png);
+    background: url(star8.png);
 }
 @keyframes animate {
     0%,20%,40%,60%,80%,100% {
