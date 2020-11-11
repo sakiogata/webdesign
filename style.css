@@ -257,7 +257,7 @@ textarea {
 }
 .star-section .star.star1 {
     animation-delay: 0;
-    background: url(star1.png);
+    background: url(portfolio/star1.png);
 }
 .star-section .star.star2 {
     animation-delay: -1s;
