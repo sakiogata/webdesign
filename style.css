@@ -1,0 +1,305 @@
+.container {
+    color: white;
+    height: 780px;
+    font-family: 'Source Serif Pro', serif;
+}
+body {
+    background-color: rgb(102, 102, 204);
+    overflow-x: hidden;
+}
+.title-header {
+    font-size: 33px;
+    cursor: default;
+    position: fixed;
+    font-family: 'Source Serif Pro', serif;
+    padding-left: 2px;
+    font-weight: normal;
+    color: white;
+}
+.webdesigner {
+    position: fixed;
+    font-size: 13px;
+    cursor: default;
+    font-family: 'Source Serif Pro', serif;
+    padding-left: 2px;
+    font-weight: normal;
+    color: white;
+}
+.insta {
+    text-align: right;
+    block-size: 30px;
+}
+.github {
+    text-align: right;
+    block-size: 50px;
+}
+.copy {
+    color: lightcoral;
+    font-size: 60px;
+    padding: 150px 0 0px 270px;
+    text-shadow: 5px 0px white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+ul {
+    position: fixed;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    display: block;
+    width: 75px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 0.5px 4px;
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+}
+li :hover {
+    border: 2px solid white;
+    padding: 0.5px 4px;
+    background-color:white;
+    color: black;
+}
+li {
+    list-style: none;
+    font-size: 19px;
+}
+li :active {
+    color: black;
+    background-color: white;
+}
+.title {
+    font-size: 40px;
+    padding: 110px 0 40px 270px;
+    cursor: default;
+    text-shadow: 5px 2px lightcoral;
+}
+.site-title {
+    padding-left: 370px;
+    font-size: 18px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+.site-eng {
+    padding-left: 370px;
+    font-size: 13px;
+    padding-bottom: 30px;
+}
+.site-jp {
+    padding-left: 370px;
+    font-size: 13px;
+    padding-bottom: 30px;
+}
+.about-eng {
+    font-size: 13px;
+    float: left;
+    padding-left: 370px;
+}
+.about-jp {
+    font-size: 13px;
+    float: left;
+    padding-left: 370px;
+}
+.works-details {
+    padding-left: 370px;
+}
+.works-design {
+    font-size: 13px;
+}
+.skills {
+    font-size: 13px;
+}
+.contact-details {
+    font-size: 13px;
+    padding-left: 370px;
+}
+.form-4 {
+    width: 100%;
+    padding-left: 370px;
+    padding-top: 10px;
+}
+form {
+    padding: 25px  0;
+    font-size: 13px;
+}
+input {
+    width: 600px;
+    height: 27px;
+}
+textarea {
+    width: 600px;
+    height: 100px;
+}
+.animation-1 {
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    top: -50%;
+    left: 20%;
+    z-index: -10;
+    position: fixed;
+    animation-name: animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+.animation-2 {
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 0%;
+    left: 46%;
+    z-index: -10;
+    position: fixed;
+    animation-name: animation;
+    animation-duration: 5.2s;
+    animation-iteration-count: infinite;
+}
+.animation-3 {
+    font-size: 19px;
+    color: white;
+    position: absolute;
+    top: -50%;
+    left: 67%;
+    z-index: -10;
+    position: fixed;
+    animation-name: animation;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-delay: 3s;
+}
+.animation-4 {
+    font-size: 12px;
+    color: white;
+    position: absolute;
+    top: -50%;
+    left: 88%;
+    z-index: -10;
+    position: fixed;
+    animation-name: animation;
+    animation-duration: 5.9s;
+    animation-iteration-count: infinite;
+    animation-delay: 4s;
+}
+.animation-5 {
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 100%;
+    z-index: -10;
+    position: fixed;
+    animation-name: animation;
+    animation-duration: 4.8s;
+    animation-iteration-count: infinite;
+}
+.animation-6 {
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    top: 20%;
+    left: 100%;
+    z-index: -10;
+    position: fixed;
+    animation-name: animation;
+    animation-duration: 5.8s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+}
+.animation-7 {
+    font-size: 19px;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 100%;
+    z-index: -10;
+    position: fixed;
+    animation-name: animation;
+    animation-duration: 5.2s;
+    animation-iteration-count: infinite;
+    animation-delay: 3.3s;
+}
+.animation-8 {
+    font-size: 13px;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    z-index: -10;
+    position: fixed;
+    animation-name: animation;
+    animation-duration: 6.3s;
+    animation-iteration-count: infinite;
+    animation-delay: 0.5s;
+}
+@keyframes animation {
+    from{transform: translate3D(0,0,0);}
+    to{transform: translate3D(-5000px,5000px,0);}
+}
+.star-section {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -5;
+}
+.star-section .star {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    animation: animate 8s ease-in-out infinite,
+               backgroungmove 16s linear infinite;
+}
+.star-section .star.star1 {
+    animation-delay: 0;
+    background: url(star1.png);
+}
+.star-section .star.star2 {
+    animation-delay: -1s;
+    background: url(star2.png);
+}
+.star-section .star.star3 {
+    animation-delay: -2s;
+    background: url(star3.png);
+}
+.star-section .star.star4 {
+    animation-delay: -3s;
+    background: url(star4.png);
+}
+.star-section .star.star5 {
+    animation-delay: -4s;
+    background: url(star5.png);
+}
+.star-section .star.star6 {
+    animation-delay: -5s;
+    background: url(star6.png);
+}
+.star-section .star.star7 {
+    animation-delay: -6s;
+    background: url(star7.png);
+}
+.star-section .star.star8 {
+    animation-delay: -7s;
+    background: url(star8.png);
+}
+@keyframes animate {
+    0%,20%,40%,60%,80%,100% {
+        opacity: 0;
+    }
+    10%,30%,50%,70%,90% {
+        opacity: 1;
+    }
+}
+@keyframes backgroungmove {
+    0%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(2);
+    }
+}
