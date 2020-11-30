@@ -47,15 +47,9 @@ img {
     cursor: pointer;
     color: white;
 }
-.twitter-a :hover {
-    color: rgb(0, 0, 0);
-}
 .fa-instagram-square {
     cursor: pointer;
     color: white;
-}
-.insta-a :hover {
-    color: rgb(0, 0, 0);
 }
 .copy {
     text-align: left;
